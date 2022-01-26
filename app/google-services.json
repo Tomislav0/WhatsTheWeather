@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "621366538918",
+    "project_id": "whatstheweatherapp-a5324",
+    "storage_bucket": "whatstheweatherapp-a5324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621366538918:android:4d17f2f9eaf996398b3a67",
+        "android_client_info": {
+          "package_name": "com.example.whatstheweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621366538918-oj6irj016qaep03e3vc8t6nkmkqu5seo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0SSCfBO2q6vTcd7V9YqNJ0Lpd9BYhnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621366538918-oj6irj016qaep03e3vc8t6nkmkqu5seo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621366538918:android:433b21ec6dc44bc08b3a67",
+        "android_client_info": {
+          "package_name": "com.example.whatstheweatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621366538918-oj6irj016qaep03e3vc8t6nkmkqu5seo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0SSCfBO2q6vTcd7V9YqNJ0Lpd9BYhnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621366538918-oj6irj016qaep03e3vc8t6nkmkqu5seo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WhatsTheWeather</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="choice_option">
+        <item>Use my Current Location</item>
+        <item>Use my predefind Location</item>
+    </string-array>
+</resources>

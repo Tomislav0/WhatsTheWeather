@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/idTVTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Select predefined locaton:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idTVTitle">
+
+        <RadioButton
+            android:id="@+id/idRBOpt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current location"
+            android:textSize="15sp"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            style="@style/radial"/>
+
+        <RadioButton
+            android:id="@+id/idRBOpt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Custom location"
+
+            style="@style/radial"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/idETLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Custom Location"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/idBtnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Save"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idBtnCancle"
+        app:layout_constraintTop_toBottomOf="@+id/idETLocation"
+        style="@style/buton"
+        />
+
+
+    <Button
+        android:id="@+id/idBtnCancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:text="Cancle"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/idBtnSave"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idETLocation"
+        style="@style/buton"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
