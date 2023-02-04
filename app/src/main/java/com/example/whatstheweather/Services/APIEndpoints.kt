@@ -8,6 +8,6 @@ import retrofit2.http.Query
 interface APIEndpoints {
     @GET("v1/forecast.json?")
     fun getWeather(@Query("q") cityName:String,
-                   @Query("key") key:String="0184c86564c54eef9ce121501212712",
+                   @Query("key") key:String="KEY",
                     @Query("days") days:String="7") : Call<Weather>
 }
